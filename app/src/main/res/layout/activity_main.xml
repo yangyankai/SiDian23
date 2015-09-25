@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/repeat_bg"
+    android:id="@+id/outL">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="欢迎登录四点网"
+        android:id="@+id/login_status" />
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名："
+            android:id="@+id/textview_username" />
+
+        <EditText
+            android:id="@+id/edittext_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入邮箱..."  />
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密  码："
+            android:id="@+id/textview_password" />
+        <EditText
+            android:id="@+id/edittext_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入您的密码"
+            android:password="true" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="去签到" >
+    </Button>
+
+
+</LinearLayout>
